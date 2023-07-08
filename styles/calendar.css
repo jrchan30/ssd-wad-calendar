@@ -1,0 +1,22 @@
+.calendar__container-grid {
+  @apply grid grid-cols-7;
+}
+.calendar__heading {
+  @apply text-center text-white bg-sky-950 py-3;
+}
+
+.calendar-day__placeholder {
+  @apply h-32 border animate-pulse bg-slate-50;
+}
+
+.calendar-day__container {
+  @apply flex flex-col justify-between border h-32 px-2 py-1;
+}
+
+.calendar-day__date {
+  @apply w-7 h-7 self-end flex justify-center items-center rounded-full;
+}
+
+.calendar-day__current-date {
+  @apply h-8 w-8 bg-red-500 text-white font-extrabold;
+}
